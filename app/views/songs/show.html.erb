@@ -1,0 +1,16 @@
+<h1>
+   <%= @song.title %>
+</h1>
+
+<h3><%= link_to @song.artist.name, @song.artist %> </h3>
+
+<p><%= @song.title %></p>
+<p><%= @song.lyrics %></p>
+
+<p>
+   <% @song.genres.each do |genre| %>
+       <%= link_to "#{genre.name}", genre, class: "btn btn-primary btn-xs" %>
+   <% end %>
+</p>
+
+<img class="cover" src="<%= @song.cover %>"/>

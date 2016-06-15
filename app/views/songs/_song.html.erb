@@ -1,0 +1,26 @@
+<div class="song-item">
+
+   <div class="inline cover">
+      <img class="small-cover" src="<%= song.cover %>"/>
+   </div>
+
+   <div class="inline details">
+
+      <h3><%= link_to song.title, song %></h3>
+
+      <% if !defined?(hide_artist) || !hide_artist %>
+      <h4><%= link_to song.artist.name, song.artist %></h4>
+      <% end %>
+
+      <p><%= song.title %></p>
+      <p><%= song.lyrics %></p>
+
+      <p>
+          <% song.genres.each do |genre| %>
+          <%= link_to "#{genre.name}", genre, class: "btn      btn-primary btn-xs" %>
+          <% end %>
+      </p>
+
+   </div>
+
+</div>
