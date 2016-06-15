@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   resources :songs
   resources :genres
 
-  root "artist#index"
+  root "artists#index"
 
 end
