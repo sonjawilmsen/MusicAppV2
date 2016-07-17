@@ -2,3 +2,5 @@
 
 
 A musicApp based on Ruby on rails. I learned how to work with rails generate model and relations.
+
+https://aqueous-falls-45917.herokuapp.com/
