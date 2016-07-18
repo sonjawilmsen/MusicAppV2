@@ -1,6 +1,10 @@
 == README
 
 
-A musicApp based on Ruby on rails. I learned how to work with rails generate model and relations.
+A musicApp based on Ruby on rails. It shows you artist, and if you click on one you go to the artist page where some songs are shown. I made this in the 2nd week of the Codaisseur program. I learned how to work with rails generate model and relations based on examples from class assignments. 
+
+You can see the project at the following url:
 
 https://aqueous-falls-45917.herokuapp.com/
+
+It is a work in progress. At the moment only the songs for 1 artists (The Cure) are shown. I would like to resolve this problem.
